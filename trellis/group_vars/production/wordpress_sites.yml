@@ -4,7 +4,7 @@
 wordpress_sites:
   my-start.com:
     site_hosts:
-    - canonical: my-start.com
+    - canonical: 104.248.250.143
       redirects:
       - www.my-start.com
     local_path: ../site
