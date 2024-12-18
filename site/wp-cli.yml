@@ -5,6 +5,6 @@ server:
 
 
 @development:
-  ssh: vagrant@my-start.test/srv/www/my-start.test/current
+  ssh: vagrant@my-start.test/srv/www/my-start.com/current
 @production:
   ssh: web@104.248.250.143/srv/www/my-start.com/current
