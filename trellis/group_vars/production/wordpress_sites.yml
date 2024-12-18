@@ -4,10 +4,9 @@
 wordpress_sites:
   my-start.com:
     site_hosts:
-    - canonical: my-start.prod
+    - canonical: 104.248.250.143
       redirects:
       - www.my-start.com
-    - canonical: 104.248.250.143
     local_path: ../site
     branch: main
     repo: git@github.com:andreadatri/my-start.com.git
