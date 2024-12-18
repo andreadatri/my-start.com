@@ -1,3 +1,10 @@
 path: web/wp
 server:
   docroot: web
+
+
+
+@development:
+  ssh: vagrant@my-start.test/srv/www/my-start.test/current
+@production:
+  ssh: web@my-start.com/srv/www/my-start.com/current
