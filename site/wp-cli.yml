@@ -1,6 +1,6 @@
-path: web/wp
-server:
-  docroot: web
+# path: web/wp
+# server:
+#   docroot: web
 
 
 
