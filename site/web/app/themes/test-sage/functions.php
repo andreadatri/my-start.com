@@ -18,7 +18,7 @@ if (! file_exists($composer = __DIR__.'/vendor/autoload.php')) {
 require_once $composer;
 
 // Includi il file wp_bootstrap_navwalker.php
-require_once get_template_directory() . '/app/wp_bootstrap_navwalker.php';
+// require_once get_template_directory() . '/app/wp_bootstrap_navwalker.php';
 
 add_action('after_setup_theme', function () {
     register_nav_menus([
