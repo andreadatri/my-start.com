@@ -11,9 +11,7 @@
           'theme_location' => 'primary_navigation',
           'menu_class' => 'navbar-nav ms-auto',
           'container' => false,
-          'depth' => 2,
-          'walker' => new WP_Bootstrap_Navwalker(),
-          'fallback_cb' => 'WP_Bootstrap_Navwalker::fallback'
+          'depth' => 2
         ]) !!}
       @endif
     </div>
